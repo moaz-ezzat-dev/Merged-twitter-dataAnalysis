@@ -60,14 +60,3 @@ Golden Retriever appears as the most frequently mentioned breed, reflecting its 
 
 ---
 
-## Visualizations
-
-### 1. Distribution of Dog Stages
-Displays the count of each dog stage in the dataset.
-
-```python
-sns.countplot(data=df, x='dog_stage', order=df['dog_stage'].value_counts().index)
-plt.title('Distribution of Dog Stages')
-plt.xlabel('Dog Stage')
-plt.ylabel('Count')
-plt.show()
